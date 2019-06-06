@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-project(cpp_prac)
+project(unix)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp_prac main.cpp)
+add_executable(main main.cpp)
 add_executable(more03 more03.cpp)
 
 add_executable(who01 who01.c)
